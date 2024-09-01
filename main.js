@@ -1,3 +1,10 @@
 
+let counter = 0;
+let countEl = document.getElementById("count-el");
 
-document.getElementById("count-el").innerText = 6
+
+function increment() {
+    counter += 1;
+    countEl.innerText = counter;
+    console.log(counter)
+}

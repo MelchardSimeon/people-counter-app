@@ -23,4 +23,16 @@ h2 {
 }
 
 
+#increment-btn {
+    background-color: gold;
+    padding: 15px 40px;
+    border-radius: 20px;
+    font-size: 20px;
+    transition: opacity 0.15s;
+}
+
+#increment-btn:hover {
+    opacity: 0.7;
+}
+
 
