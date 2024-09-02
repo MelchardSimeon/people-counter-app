@@ -2,6 +2,7 @@
 let counter = 0;
 let countEl = document.getElementById("count-el");
 let saveEl = document.getElementById("save-el");
+let savePara = document.getElementById("save-para")
 
 function increment() {
     counter += 1;
@@ -10,5 +11,9 @@ function increment() {
 }
 
 function save() {
+    let countEntry = counter + " - ";
+    savePara.innerText += countEntry;
+    savePara.style.color = "pink";
+    savePara.style.fontSize = "40px"
     console.log(counter);
 }
