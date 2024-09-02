@@ -16,4 +16,6 @@ function save() {
     savePara.style.color = "pink";
     savePara.style.fontSize = "40px"
     console.log(counter);
+    countEl.textContent = 0;
+    counter = 0;
 }
